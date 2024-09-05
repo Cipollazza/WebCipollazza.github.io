@@ -1,0 +1,629 @@
+.project-detail {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-detail h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.project-image, .project-pattern {
+    width: 80%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.before-after {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.before-after div {
+    width: 45%;
+    text-align: center;
+}
+
+.before-after img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8E6CBA;
+    padding: 10px 20px;
+}
+
+nav a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.home-icon, .next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+body, html {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #2B1D40;
+    color: white;
+}
+
+/* Stile per l'header a piena pagina */
+.full-page-header {
+    height: 100vh; /* Occupa l'intera altezza della finestra */
+    width: 100%; /* Occupa l'intera larghezza della finestra */
+    /*background-color: #2B1D40; /* Colore di sfondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*color: white;*/
+    box-sizing: border-box; /* Include padding e border nella larghezza e altezza */
+}
+
+
+.container {
+    /*max-width: 1200px; /* Larghezza massima, se desiderata */
+    width: 100%; /* Occupare tutta la larghezza disponibile */
+    margin: 0 auto; /* Centrare il contenitore */
+    /*padding: 20px; /* Spazio interno di 20px su tutti i lati */
+    box-sizing: border-box; /* Include il padding e il bordo nella larghezza totale */
+}
+.header {
+    text-align: center;
+    background-color: #8E6CBA;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between; /* Spaziatura tra i pulsanti */
+    align-items: center; /* Allinea i pulsanti verticalmente */
+    padding: 10px; /* Spaziatura interna */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    /*align-items: center;*/
+}
+
+.header h2 {
+    margin-top: 10px;
+}
+
+.about {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about h3 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+
+.about p, .about ul {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.descrizione {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.descrizione p {
+    /*margin: 0 auto;*/
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.descrizione ul {
+    /*text-align: center;*/
+    list-style-type:none;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+
+
+.didascalia {
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+.didascalia p {
+    /*margin: 0 auto;*/
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom:10px;
+    font-size: 1.0em;
+}
+
+
+.didascalia ul {
+    /*text-align: center;*/
+    list-style-type:none;
+    font-size: 1.0em;
+    margin: 10px 0;
+}
+
+
+
+.pulsante {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.projects {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.projects h3 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 600px;
+    height: 800px;
+    text-align: center;
+}
+
+.project img {
+    width: 85%;
+    border-radius: 8px;
+}
+
+
+.caljects {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.caljects h3 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.caljects p {
+    
+    /*display: block;*/
+    text-align: center; /* Centra il testo del paragrafo */
+    margin: 0 auto;
+    margin-top: 1.0em;
+    font-size: 1.5em;
+
+
+}
+
+
+.calject-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.calject {
+    width: 600px;
+    height: 540px;
+    text-align: center;
+}
+
+.calject img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.calendars {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.calendars h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.calendars h3 {
+    font-size: 1.0em;
+    margin-bottom: 10px;
+}
+
+.calendar-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.calendar {
+    width: 768px;
+    height: 1024px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+
+.calendar p {
+    /*margin: 10px;*/
+    font-size: 1.0em; 
+}
+
+
+.calendar img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+.footer { 
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 5;
+    align-items: center;
+    background-color: #8E6CBA;
+    /*border-radius: 10%;
+    /*padding: 10px 20px;
+    /*border-radius: 0 0 8px 8px;*/
+    width: 100%;
+
+}  
+
+.footer p {
+    margin: 0;
+    font-size: 1.5em; 
+}
+
+.contact-button {
+    background-color: #8E6CBA;
+    /*border: 2px solid white;*/
+    padding: 0;
+    border: none;
+    font-size: larger;
+    text-align: justify;
+    color: white;
+    /*padding: 10px 20px;*/
+    font-size: 2em;
+    /*border-radius: 8px;*/
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /*float: inline-end;*/
+}
+
+.contact-button:hover {
+    background-color: #764CA6;
+}
+/* Stili aggiuntivi per la pagina del disegno digitale */
+.project-detail {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-detail h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    width: 80%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.reference {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reference img {
+    width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.reference p {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.home-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: left;
+
+}
+
+.next-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /*margin-left: 95%;*/
+
+}
+
+.home-button img, .next-button img {
+    height: 25px; /* Cambia la dimensione dell'immagine a piacere */
+    width: auto;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 1em; /* Cambia la dimensione del testo a piacere */
+    color:  #f5f4f7; /* Cambia il colore del testo a piacere */
+}
+
+
+.disjects {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.disjects h3 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.disjects p {
+    
+    /*display: block;*/
+    text-align: center; /* Centra il testo del paragrafo */
+    margin: 0 auto;
+    margin-top: 1.0em;
+    font-size: 1.5em;
+
+
+}
+
+
+.disject-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.disject {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.disject img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.minendars {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.minendars h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.minendars h3 {
+    font-size: 1.0em;
+    margin-bottom: 10px;
+}
+
+.minendar-grid {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.minendar {
+    width: 768px;
+    height: 1024px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+
+.minendar p {
+    /*margin: 10px;*/
+    font-size: 1.0em; 
+}
+
+
+.minendar img {
+    /*width: 100%;*/
+    border-radius: 8px;
+    width: 528px;
+    height: 530px;
+}
+
+
+.minendars2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.minendars2 h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.minendars2 h3 {
+    font-size: 1.0em;
+    margin-bottom: 10px;
+}
+
+.minendar2-grid {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.minendar2 {
+    width: 768px;
+    height: 1024px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+
+.minendar2 p {
+    /*margin: 10px;*/
+    font-size: 1.0em; 
+}
+
+
+.minendar2 img {
+    /*width: 100%;*/
+    border-radius: 8px;
+    width: 768px;
+    height: 432px;
+}
+
+.aboutc {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.aboutc h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    
+}
+
+
+.aboutc p, .aboutc ul {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutc img {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.descrizionec {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px 0;
+    margin-top: 20px;
+    margin-bottom:175px;
+}
+
+
+.descrizionec p {
+    /*margin: 0 auto;*/
+    text-align: left;
+    font-size: 1.5em;
+}
+
+
+.descrizionec ul {
+    /*text-align: center;
+/*    text-align: left;*/
+    list-style-type:none;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.descrizionec ul li {
+    /*border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    /*background-color: #f6f6f6;*/
+    text-align: center;
+    padding: 12px;
+}
+
+.descrizionec img {
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.tab {
+    display: inline-block;
+    width: 160px; /* Larghezza del "tab" */
+}
+
+.tab2 {
+    display: inline-block;
+    width: 35px; /* Larghezza del "tab" */
+}
+
+.tab3 {
+    display: inline-block;
+    width: 15px; /* Larghezza del "tab" */
+}
+
+.aligned-image {
+    vertical-align: middle; /* Allinea l'immagine verticalmente al centro */
+    margin-right: 10px; /* Spazio tra l'immagine e il testo */
+}
+
+.email-link {
+    color: #ffffff; /* Colore del testo (in questo caso arancione) */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+.email-link:hover {
+    color: #00bfff; /* Colore del testo quando l'utente passa sopra con il mouse */
+    text-decoration: underline; /* Sottolinea il testo al passaggio del mouse */
+}
+
+/*
